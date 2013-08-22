@@ -69,7 +69,7 @@ public class Resume extends Activity {
                 this.alertDialog.setTitle(R.string.birthday_hint).setView(datePicker).setPositiveButton(R.string.Ok, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        ((EditText) findViewById(R.id.birthday)).setText(new StringBuilder().append(datePicker.getDayOfMonth()).append(R.string.dot).append(datePicker.getMonth()).append(R.string.dot).append(datePicker.getYear()).toString());
+                        ((EditText) findViewById(R.id.birthday)).setText(new StringBuilder().append(datePicker.getDayOfMonth()).append(getString(R.string.dot)).append(datePicker.getMonth()).append(getString(R.string.dot)).append(datePicker.getYear()).toString());
                     }
                 });
                 return this.alertDialog.create();
@@ -85,7 +85,7 @@ public class Resume extends Activity {
         sendResume.putExtra(POSITION, ((EditText)findViewById(R.id.position)).getText().toString());
         String salary = ((EditText)findViewById(R.id.salary)).getText().toString();
         if(!salary.trim().isEmpty())
-            sendResume.putExtra(SALARY, new StringBuilder().append(salary).append(R.string.space).append(((Spinner)findViewById(R.id.currency_spinner)).getSelectedItem().toString()).toString() );
+            sendResume.putExtra(SALARY, new StringBuilder().append(salary).append(getString(R.string.space)).append(((Spinner)findViewById(R.id.currency_spinner)).getSelectedItem().toString()).toString() );
         sendResume.putExtra(PHONE, ((EditText)findViewById(R.id.phone)).getText().toString());
         sendResume.putExtra(EMAIL, ((EditText)findViewById(R.id.email)).getText().toString());
         startActivityForResult(sendResume, REQUEST_CODE);
