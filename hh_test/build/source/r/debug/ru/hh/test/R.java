@@ -9,8 +9,8 @@ package ru.hh.test;
 
 public final class R {
     public static final class array {
-        /**  From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/strings.xml 
- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values-ru/strings.xml 
+        /**  From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values/strings.xml 
+ From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values-ru/strings.xml 
          */
         public static final int currency=0x7f040000;
         public static final int sex=0x7f040001;
@@ -18,13 +18,13 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        /**  From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/colors.xml 
+        /**  From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values/colors.xml 
          */
         public static final int my_background=0x7f050000;
     }
     public static final class dimen {
-        /**  From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/dimens.xml 
- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values/dimens.xml 
+ From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
@@ -62,7 +62,7 @@ public final class R {
         public static final int resume=0x7f030001;
     }
     public static final class string {
-        /**  From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/strings.xml 
+        /**  From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values/strings.xml 
          */
         public static final int Ok=0x7f070000;
         public static final int answer=0x7f070001;
@@ -85,7 +85,7 @@ public final class R {
         public static final int unknown=0x7f070012;
     }
     public static final class style {
-        /**  From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/styles.xml 
+        /**  From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/values/styles.xml 
          */
         public static final int AppBaseTheme=0x7f080000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
