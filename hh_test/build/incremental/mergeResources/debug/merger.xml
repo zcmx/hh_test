@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="reply"
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\layout\reply.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="resume"
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\layout\resume.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="my_background" >#f0f0f0
+                </color>
+            </file>
+            <file
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="size_label_hint" >12sp
+                </dimen>
+                <dimen name="element_margin" >8dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="header" >18sp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string-array name="sex" >
+                    <item>
+Male
+                    </item>
+                    <item>
+Female
+                    </item>
+                </string-array>
+
+                <string name="by_agreement" >By agreement
+                </string>
+                <string name="birthday_hint" >Birth day
+                </string>
+
+                <string-array name="currency" >
+                    <item>
+rub
+                    </item>
+                    <item>
+$
+                    </item>
+                    <item>
+€
+                    </item>
+                </string-array>
+
+                <string name="Ok" >Ok
+                </string>
+                <string name="answer" >Send answer
+                </string>
+                <string name="employer_response" >Employer response
+                </string>
+                <string name="sex_label" >Sex
+                </string>
+                <string name="phone_hint" >Phone
+                </string>
+                <string name="dot" >.
+                </string>
+                <string name="email_hint" >Email
+                </string>
+                <string name="send_resume" >Send resume
+                </string>
+                <string name="position_hint" >Position
+                </string>
+                <string name="space" ></string>
+                <string name="phone_buttons" >0123456789+
+                </string>
+                <string name="answer_label" >The answer to the resume
+                </string>
+                <string name="empty" ></string>
+                <string name="salary_hint" >Salary
+                </string>
+                <string name="app_name" >hh.ru test
+                </string>
+                <string name="unknown" >Not specified
+                </string>
+                <string name="fio_hint" >Full Name
+                </string>
+            </file>
+            <file
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light.NoTitleBar" >
+                    <item name="android:windowBackground">
+@color/my_background
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values-ru\strings.xml"
+                qualifiers="ru" >
+                <string name="empty" ></string>
+                <string name="position_hint" >Должность
+                </string>
+                <string name="email_hint" >Электронная почта
+                </string>
+                <string name="dot" >.
+                </string>
+                <string name="phone_buttons" >0123456789+
+                </string>
+                <string name="answer_label" >Ответ на резюме
+                </string>
+                <string name="phone_hint" >Телефон
+                </string>
+
+                <string-array name="currency" >
+                    <item>
+руб
+                    </item>
+                    <item>
+$
+                    </item>
+                    <item>
+€
+                    </item>
+                </string-array>
+
+                <string name="by_agreement" >По договоренности
+                </string>
+                <string name="birthday_hint" >Дата рождения
+                </string>
+                <string name="space" ></string>
+                <string name="sex_label" >Пол
+                </string>
+                <string name="Ok" >Ок
+                </string>
+                <string name="answer" >Отправить ответ
+                </string>
+                <string name="send_resume" >Отправить резюме
+                </string>
+                <string name="fio_hint" >Ф.И.О.
+                </string>
+                <string name="salary_hint" >З/п
+                </string>
+                <string name="app_name" >hh.ru тест
+                </string>
+                <string name="employer_response" >Ответ работодателя
+                </string>
+                <string name="unknown" >Не указано
+                </string>
+
+                <string-array name="sex" >
+                    <item>
+Муж
+                    </item>
+                    <item>
+Жен
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+        </source>
+        <source path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\debug\res" />
+    </dataSet>
+
+</merger>

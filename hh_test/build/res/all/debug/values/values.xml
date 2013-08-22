@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/strings.xml -->
+    <string-array name="currency">
+        <item>rub</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <!-- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/colors.xml -->
+    <color name="my_background">#f0f0f0</color>
+    <!-- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/dimens.xml -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="element_margin">8dp</dimen>
+    <dimen name="header">18sp</dimen>
+    <dimen name="size_label_hint">12sp</dimen>
+    <!-- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/strings.xml -->
+    <string name="Ok">Ok</string>
+    <string name="answer">Send answer</string>
+    <string name="answer_label">The answer to the resume</string>
+    <string name="app_name">hh.ru test</string>
+    <string name="birthday_hint">Birth day</string>
+    <string name="by_agreement">By agreement</string>
+    <string name="dot">.</string>
+    <string name="email_hint">Email</string>
+    <string name="employer_response">Employer response</string>
+    <string name="empty"></string>
+    <string name="fio_hint">Full Name</string>
+    <string name="phone_buttons">0123456789+</string>
+    <string name="phone_hint">Phone</string>
+    <string name="position_hint">Position</string>
+    <string name="salary_hint">Salary</string>
+    <string name="send_resume">Send resume</string>
+    <string name="sex_label">Sex</string>
+    <string name="space"></string>
+    <string name="unknown">Not specified</string>
+    <!-- From: file:/C:/Users/mikhail.olshevskiy/AndroidStudioProjects/hh_testProject/hh_test/src/main/res/values/styles.xml -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/my_background</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hh.ru тест</string>
+    <string name="fio_hint">Ф.И.О.</string>
+    <string name="birthday_hint">Дата рождения</string>
+    <string name="email_hint">Электронная почта</string>
+    <string name="salary_hint">З/п</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="position_hint">Должность</string>
+    <string name="send_resume">Отправить резюме</string>
+    <string name="Ok">Ок</string>
+    <string name="answer">Отправить ответ</string>
+    <string name="answer_label">Ответ на резюме</string>
+    <string name="unknown">Не указано</string>
+    <string name="sex_label">Пол</string>
+    <string name="by_agreement">По договоренности</string>
+    <string name="employer_response">Ответ работодателя</string>
+    <string name="empty"></string>
+    <string name="dot">.</string>
+    <string name="space"> </string>
+    <string name="phone_buttons">0123456789+</string>
+
+    <string-array name="sex">
+        <item>Муж</item>
+        <item>Жен</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>руб</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+
+</resources>

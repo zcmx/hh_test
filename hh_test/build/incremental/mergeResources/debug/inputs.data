@@ -1,0 +1,16 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376642890000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-hdpi\ic_launcher.png
+1377082968000 6020 bbb6d875319812ed179f3278d057c849f50b78cc C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\layout\reply.xml
+1377148844089 1242 abf22609cbf184d729085a73f8dfb1ad204c84cc C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\strings.xml
+1376642890000 181 84de2797380184d8b39af6f829afb092fb956173 C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values-sw600dp\dimens.xml
+1377081910000 114 2fc0b13600efb8f2929fa0c0a5d09eb06be4dfbc C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\colors.xml
+1377026960000 341 9db25ac9ba397da7a4f96ce5312c8a4d4141435c C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\dimens.xml
+1376987306000 550 559c558c0ec3dc68ef7e6beecc7d89a91c76c766 C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values\styles.xml
+1377148844080 1399 f0f831b59cd03d0c80c6989907d6f2f79a45e414 C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values-ru\strings.xml
+1377148844095 4085 f3f948d06856bb41fc7087b8a2a9f75354ff67dc C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\layout\resume.xml
+1376642890000 254 25b6404e44acb50c82590049639d4fb5fefbac8e C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\values-sw720dp-land\dimens.xml
+1376642890000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-mdpi\ic_launcher.png
+1376642890000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-xhdpi\ic_launcher.png
+1376642890000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c C:\Users\mikhail.olshevskiy\AndroidStudioProjects\hh_testProject\hh_test\src\main\res\drawable-xxhdpi\ic_launcher.png
