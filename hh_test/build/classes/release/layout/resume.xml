@@ -96,6 +96,7 @@
         <TextView
             android:id="@+id/reply"
             android:scrollbars="vertical"
+            android:focusableInTouchMode="true"
             android:fadingEdge="vertical"
             android:layout_below="@id/reply_label"
             android:textStyle="italic"
