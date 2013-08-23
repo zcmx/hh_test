@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hh.ru test</string>
+    <string name="fio_hint">Full Name</string>
+    <string name="birthday_hint">Birth day</string>
+    <string name="email_hint">Email</string>
+    <string name="salary_hint">Salary</string>
+    <string name="phone_hint">Phone</string>
+    <string name="position_hint">Position</string>
+    <string name="send_resume">Send resume</string>
+    <string name="Ok">Ok</string>
+    <string name="answer">Send answer</string>
+    <string name="answer_label">The answer to the resume</string>
+    <string name="unknown">Not specified</string>
+    <string name="sex_label">Sex</string>
+    <string name="by_agreement">By agreement</string>
+    <string name="employer_response">Employer response</string>
+    <string name="empty"></string>
+    <string name="dot">.</string>
+    <string name="space"> </string>
+    <string name="phone_buttons">0123456789+</string>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>rub</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+
+
+
+</resources>

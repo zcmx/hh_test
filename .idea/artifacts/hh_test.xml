@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="hh_test">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/hh_test</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="includeSystemProGuardCfgFile" value="true" />
+        <option name="keyAlias" value="alias_name" />
+        <option name="keyPassword" value="YW5kcm9pZA==" />
+        <option name="keyStorePassword" value="YW5kcm9pZA==" />
+        <option name="keyStoreUrl" value="file://$USER_HOME$/my-release-key.keystore" />
+        <option name="proGuardCfgFileUrl" value="file://" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="hh_test.apk">
+      <element id="android-final-package" facet="hh_test/android/Android" />
+    </root>
+  </artifact>
+</component>
