@@ -24,6 +24,7 @@
     </option>
     <device-configurations>
       <entry key="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/reply.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" value="Portrait" />
     </device-configurations>
   </component>
   <component name="AndroidLayouts">
@@ -49,35 +50,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3295d4e0-dcf6-4525-bbff-d2f117c32644" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\mikhail.olshevskiy\hh_testProject\hh_test\src\main\java\ru\hh\test\ResumeFinalFragment.java" afterPath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeBlankFragment1.java" />
-      <change type="MOVED" beforePath="C:\Users\mikhail.olshevskiy\hh_testProject\hh_test\src\main\res\layout\resume_final_fragment.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_blank_fragment1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/BuildConfig.java" afterPath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/Manifest.java" afterPath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/R.java" afterPath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java" afterPath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/hh_test.iml" afterPath="$PROJECT_DIR$/hh_test/hh_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hh_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377693192040" ignored="false" />
+    <file path="/Dummy.txt" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694715900" ignored="false" />
     <file path="/fragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377231711929" ignored="false" />
-    <file path="/resume.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377236932209" ignored="false" />
+    <file path="/resume.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377695351370" ignored="false" />
     <file path="/reply.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377692387000" ignored="false" />
     <file path="/ResumeFinalFragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680589599" ignored="false" />
     <file path="/ResumeFinalFragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377628978486" ignored="false" />
     <file path="/Reply.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377689858271" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377676756915" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694272188" ignored="false" />
     <file path="/resume_final_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680178369" ignored="false" />
     <file path="/ResumeBlankFragment2.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680686054" ignored="false" />
     <file path="/strings.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680766311" ignored="false" />
     <file path="/ReplyToResumeFragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377688852371" ignored="false" />
-    <file path="/reply_form_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377692867058" ignored="false" />
+    <file path="/reply_form_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377695175913" ignored="false" />
+    <file path="/styles.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694325049" ignored="false" />
+    <file path="/resume_empty_fragment1.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694841110" ignored="false" />
+    <file path="/resume_empty_fragment2.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694869489" ignored="false" />
+    <file path="/send_form_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377695090946" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,14 +138,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reply.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml">
+      <file leaf-file-name="resume.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="41" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-12.72">
-              <folding>
-                <marker date="1377692617101" expanded="true" signature="114:2039" placeholder="..." />
-                <marker date="1377692617101" expanded="true" signature="939:1119" placeholder="..." />
-              </folding>
+            <state line="103" column="56" selection-start="3041" selection-end="4113" vertical-scroll-proportion="-27.36">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -153,31 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml">
+      <file leaf-file-name="resume_empty_fragment1.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+            <state line="39" column="16" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.7921147">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resume.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="84" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.02972028">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reply.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/reply.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="49" selection-start="1846" selection-end="2348" vertical-scroll-proportion="-18.16">
-              <folding>
-                <marker date="1377692599218" expanded="true" signature="114:2370" placeholder="..." />
-              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -185,25 +162,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReplyToResumeFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyToResumeFragment.java">
+      <file leaf-file-name="resume_empty_fragment2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="41" column="16" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-27.88">
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_form_fragment.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="38" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-19.04">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="reply_form_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="35" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-13.6">
-              <folding>
-                <marker date="1377692895345" expanded="true" signature="114:1536" placeholder="..." />
-                <marker date="1377692895345" expanded="true" signature="1101:1518" placeholder="..." />
-              </folding>
+            <state line="27" column="30" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-18.36">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -211,10 +198,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume_blank_fragment1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_blank_fragment1.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-4.76">
+            <state line="13" column="38" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="81" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="60" selection-start="589" selection-end="589" vertical-scroll-proportion="-10.2">
               <folding />
             </state>
           </provider>
@@ -226,7 +231,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+            <state line="10" column="28" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,16 +240,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="29" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reply.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="39" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0">
+            <state line="11" column="33" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -311,11 +307,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/ResumeFinalFragment.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_final_fragment.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_blank_fragment2.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeFinalFragment.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeBlankFragment1.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeBlankFragment2.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_blank_fragment1.xml" />
@@ -324,9 +315,14 @@
         <option value="$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/layout-land/reply.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" />
       </list>
     </option>
   </component>
@@ -836,13 +832,13 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41364136" sideWeight="0.4381003" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3239061" sideWeight="0.67216724" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3239061" sideWeight="0.67216724" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6347635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278328" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -926,63 +922,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20130522/adt-bundle-windows-x86_64-20130522/sdk/platforms/android-10/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.6588629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_blank_fragment2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="19" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-42.16">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeBlankFragment2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="83" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="91" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-18.36">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeBlankFragment1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="39" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="27" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
@@ -1013,7 +952,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="49" selection-start="1846" selection-end="2348" vertical-scroll-proportion="-18.16">
           <folding>
-            <marker date="1377692599218" expanded="true" signature="114:2370" placeholder="..." />
+            <marker date="1377692599218" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1025,9 +964,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="41" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-12.72">
           <folding>
-            <marker date="1377692617101" expanded="true" signature="114:2039" placeholder="..." />
-            <marker date="1377692617101" expanded="true" signature="939:1119" placeholder="..." />
+            <marker date="1377692617101" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1377692617101" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="12" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="81" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="16" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-27.88">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="56" selection-start="3041" selection-end="4113" vertical-scroll-proportion="-27.36">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-19.04">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1036,36 +1040,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-13.6">
-          <folding>
-            <marker date="1377692895345" expanded="true" signature="114:1536" placeholder="..." />
-            <marker date="1377692895345" expanded="true" signature="1101:1518" placeholder="..." />
-          </folding>
+        <state line="27" column="30" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-18.36">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+        <state line="15" column="60" selection-start="589" selection-end="589" vertical-scroll-proportion="-10.2">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml">
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+        <state line="39" column="16" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.7921147">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="84" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.02972028">
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
