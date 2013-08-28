@@ -10,7 +10,7 @@
     <string name="position_hint">Position</string>
     <string name="send_resume">Send resume</string>
     <string name="Ok">Ok</string>
-    <string name="answer">Send answer</string>
+    <string name="answer">Send</string>
     <string name="answer_label">The answer to the resume</string>
     <string name="unknown">Not specified</string>
     <string name="sex_label">Sex</string>
@@ -32,6 +32,8 @@
         <item>€</item>
     </string-array>
 
-
+    <string name="fragment_resume_1">fragment_resume_1</string>
+    <string name="fragment_resume_2">fragment_resume_2</string>
+    <string name="fragment_resume_3">fragment_resume_3</string>
 
 </resources>

@@ -8,32 +8,52 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class Reply extends FragmentActivity {
-
+    private String fragmentResume1;
+    private String fragmentResume2;
+    private String fragmentResume3;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reply);
-        Intent intent = getIntent();
-        ResumeFinalFragment resumeFinal = new ResumeFinalFragment();
-//        if(savedInstanceState == null){
+        fragmentResume1 = getString(R.string.fragment_resume_1);
+        fragmentResume2 = getString(R.string.fragment_resume_2);
+        fragmentResume3 = getString(R.string.fragment_resume_3);
+        if(savedInstanceState == null){
+            ResumeBlankFragment1 fragment1 = new ResumeBlankFragment1();
+            ResumeBlankFragment2 fragment2 = new ResumeBlankFragment2();
+            ReplyToResumeFragment fragment3 = new ReplyToResumeFragment();
             FragmentManager manager = getSupportFragmentManager();
             FragmentTransaction transaction = manager.beginTransaction();
-            transaction.add(R.id.resume_final_fragment, resumeFinal);
+            transaction.add(R.id.resume_part_1, fragment1, fragmentResume1);
+            transaction.add(R.id.resume_part_2, fragment2, fragmentResume2);
+            transaction.add(R.id.resume_reply, fragment3, fragmentResume3);
             transaction.commit();
-//        }
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.fullName_result)).setText(intent.getStringExtra(Resume.FIO));
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.birthday_result)).setText(intent.getStringExtra(Resume.BIRTHDAY));
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.sex_result)).setText(intent.getStringExtra(Resume.SEX));
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.position_result)).setText(intent.getStringExtra(Resume.POSITION));
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.salary_result)).setText(intent.getStringExtra(Resume.SALARY));
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.phone_result)).setText(intent.getStringExtra(Resume.PHONE));
-//        ((TextView)resumeFinal.getActivity().findViewById(R.id.email_result)).setText(intent.getStringExtra(Resume.EMAIL));
+        }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+//        View fragmentResumeView1 = getSupportFragmentManager().findFragmentById(R.id.resume_part_1).getView();
+//        View fragmentResumeView2 = getSupportFragmentManager().findFragmentById(R.id.resume_part_1).getView();
+        View fragmentResumeView1 = getSupportFragmentManager().findFragmentByTag(fragmentResume1).getView();
+        View fragmentResumeView2 = getSupportFragmentManager().findFragmentByTag(fragmentResume2).getView();
+        Intent intent = getIntent();
+        ((TextView)findViewById(R.id.fullName_result)).setText(intent.getStringExtra(Resume.FIO));
+        ((TextView)fragmentResumeView1.findViewById(R.id.birthday_result)).setText(intent.getStringExtra(Resume.BIRTHDAY));
+        ((TextView)fragmentResumeView1.findViewById(R.id.sex_result)).setText(intent.getStringExtra(Resume.SEX));
+        ((TextView)fragmentResumeView1.findViewById(R.id.position_result)).setText(intent.getStringExtra(Resume.POSITION));
+        ((TextView)fragmentResumeView2.findViewById(R.id.salary_result)).setText(intent.getStringExtra(Resume.SALARY));
+        ((TextView)fragmentResumeView2.findViewById(R.id.phone_result)).setText(intent.getStringExtra(Resume.PHONE));
+        ((TextView)fragmentResumeView2.findViewById(R.id.email_result)).setText(intent.getStringExtra(Resume.EMAIL));
     }
 
     public void reply(View view){
-        String reply = ((EditText)findViewById(R.id.editReply)).getText().toString();
+        View view1 = getSupportFragmentManager().findFragmentByTag(fragmentResume3).getView();
+        String reply = ((EditText)view1.findViewById(R.id.editReply)).getText().toString();
         Intent intent = new Intent();
         intent.setData(Uri.parse(reply));
         setResult(RESULT_OK, intent);

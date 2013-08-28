@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -11,34 +11,38 @@
               android:focusableInTouchMode="true"
               android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/resume_final_fragment"
-        android:layout_width="0dp"
-        android:layout_weight="3"
-        android:layout_height="match_parent"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/size_label_hint"
-            android:layout_marginTop="@dimen/element_margin"
-            android:hint="@string/answer_label"
-            />
-    <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textCapSentences|textMultiLine"
-            android:minLines="5"
-            android:scrollbars="vertical"
-            android:maxLines="10"
-            android:id="@+id/editReply"/>
-
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/answer"
-            android:id="@+id/send_answer"
-            android:onClick="reply"
-            style="?android:buttonStyleSmall"
+            android:hint="@string/fio_hint"
+            android:id="@+id/fullName_result"
+            android:textSize="@dimen/header"
             android:layout_gravity="center"/>
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/resume_part_1"
+        android:layout_below="@id/fullName_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/resume_part_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resume_part_1"/>
+    <FrameLayout
+            android:id="@+id/resume_reply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resume_part_2"/>
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/answer"-->
+            <!--android:id="@+id/send_answer"-->
+            <!--android:layout_below="@id/resume_reply"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:onClick="reply"-->
+            <!--style="?android:buttonStyleSmall"-->
+            <!--android:layout_gravity="center"/>-->
+
+</RelativeLayout>

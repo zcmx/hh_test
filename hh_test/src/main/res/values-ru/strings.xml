@@ -10,7 +10,7 @@
     <string name="position_hint">Должность</string>
     <string name="send_resume">Отправить резюме</string>
     <string name="Ok">Ок</string>
-    <string name="answer">Отправить ответ</string>
+    <string name="answer">Отправить</string>
     <string name="answer_label">Ответ на резюме</string>
     <string name="unknown">Не указано</string>
     <string name="sex_label">Пол</string>

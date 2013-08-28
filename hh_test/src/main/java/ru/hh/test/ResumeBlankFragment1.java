@@ -7,11 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ResumeFinalFragment extends Fragment {
+public class ResumeBlankFragment1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View resumeFinal = inflater.inflate(R.layout.resume_final_fragment, container, false);
-
-        return  resumeFinal;
+        return  inflater.inflate(R.layout.resume_blank_fragment1, container, false);
     }
+
+
 }
