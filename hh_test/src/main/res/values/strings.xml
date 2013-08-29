@@ -34,5 +34,8 @@
     <string name="fragment_resume_1">fragment_resume_1</string>
     <string name="fragment_resume_2">fragment_resume_2</string>
     <string name="fragment_resume_3">fragment_resume_3</string>
+    <string name="fragment_empty_resume_1">fragment_empty_resume_1</string>
+    <string name="fragment_empty_resume_2">fragment_empty_resume_2</string>
+    <string name="fragment_empty_resume_3">fragment_empty_resume_3</string>
 
 </resources>

@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/sex_spinner"
             android:layout_alignParentLeft="true"
+            android:singleLine="true"
             android:hint="@string/birthday_hint" android:editable="false"
             android:id="@+id/birthday"/>
     <Spinner

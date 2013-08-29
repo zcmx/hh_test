@@ -24,7 +24,7 @@ public class Reply extends FragmentActivity {
         if(savedInstanceState == null){
             ResumeBlankFragment1 fragment1 = new ResumeBlankFragment1();
             ResumeBlankFragment2 fragment2 = new ResumeBlankFragment2();
-            ReplyToResumeFragment fragment3 = new ReplyToResumeFragment();
+            SendFormFragment fragment3 = new SendFormFragment();
             FragmentManager manager = getSupportFragmentManager();
             FragmentTransaction transaction = manager.beginTransaction();
             transaction.add(R.id.resume_part_1, fragment1, fragmentResume1);
@@ -37,8 +37,6 @@ public class Reply extends FragmentActivity {
     @Override
     protected void onStart() {
         super.onStart();
-//        View fragmentResumeView1 = getSupportFragmentManager().findFragmentById(R.id.resume_part_1).getView();
-//        View fragmentResumeView2 = getSupportFragmentManager().findFragmentById(R.id.resume_part_1).getView();
         View fragmentResumeView1 = getSupportFragmentManager().findFragmentByTag(fragmentResume1).getView();
         View fragmentResumeView2 = getSupportFragmentManager().findFragmentByTag(fragmentResume2).getView();
         Intent intent = getIntent();

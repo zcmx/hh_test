@@ -5,18 +5,14 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.DatePicker;
-import android.widget.EditText;
-import android.widget.RelativeLayout;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 
-public class Resume extends Activity {
+public class Resume extends FragmentActivity {
     private AlertDialog.Builder alertDialog;
     private DatePicker datePicker;
     public final static String FIO = "ru.hh.test.getFIO";
@@ -27,6 +23,10 @@ public class Resume extends Activity {
     public final static String PHONE = "ru.hh.test.getPhone";
     public final static String EMAIL = "ru.hh.test.getEmail";
     static final int REQUEST_CODE = 0;
+    private String emptyResumeFragment1;
+    private String emptyResumeFragment2;
+    private String replyFormFragment1;
+    private static String reply = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,29 +34,51 @@ public class Resume extends Activity {
         setContentView(R.layout.resume);
         this.alertDialog = new AlertDialog.Builder(this);
         this.datePicker = new DatePicker(this);
-        ((TextView)findViewById(R.id.reply)).setMovementMethod(new ScrollingMovementMethod());
-        findViewById(R.id.birthday).setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        emptyResumeFragment1 = getString(R.string.fragment_empty_resume_1);
+        emptyResumeFragment2 = getString(R.string.fragment_empty_resume_2);
+        replyFormFragment1 = getString(R.string.fragment_empty_resume_3);
+        if(savedInstanceState == null){
+            ResumeEmptyFragment1 resumeEmptyFragment1 = new ResumeEmptyFragment1();
+            ResumeEmptyFragment2 resumeEmptyFragment2 = new ResumeEmptyFragment2();
+            ReplyFormFragment replyFormFragment = new ReplyFormFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.empty_resume_fragment1, resumeEmptyFragment1,emptyResumeFragment1);
+            transaction.add(R.id.empty_resume_fragment2, resumeEmptyFragment2,emptyResumeFragment2);
+            transaction.add(R.id.reply_form_fragment, replyFormFragment,replyFormFragment1);
+            transaction.commit();
+        }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        View viewFragment1 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment1).getView();
+        View viewFragment2 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment2).getView();
+        View viewFragment3 = getSupportFragmentManager().findFragmentByTag(replyFormFragment1).getView();
+        ((TextView) viewFragment3.findViewById(R.id.reply)).setMovementMethod(new ScrollingMovementMethod());
+        viewFragment1.findViewById(R.id.birthday).setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean b) {
                 if(b) setBirthDay();
             }
         });
-        findViewById(R.id.birthday).setOnClickListener(new View.OnClickListener() {
+        viewFragment1.findViewById(R.id.birthday).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setBirthDay();
             }
         });
-        Spinner sex = (Spinner)findViewById(R.id.sex_spinner);
+        Spinner sex = (Spinner)viewFragment1.findViewById(R.id.sex_spinner);
         ArrayAdapter<CharSequence> sexAdapter = ArrayAdapter.createFromResource(this, R.array.sex, android.R.layout.simple_spinner_item);
         sexAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sex.setAdapter(sexAdapter);
-        Spinner currency = (Spinner)findViewById(R.id.currency_spinner);
+        Spinner currency = (Spinner)viewFragment2.findViewById(R.id.currency_spinner);
         ArrayAdapter<CharSequence> currencyAdapter = ArrayAdapter.createFromResource(this, R.array.currency, android.R.layout.simple_spinner_item);
         currencyAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         currency.setAdapter(currencyAdapter);
+        activateReplyForm();
     }
-
 
     public void setBirthDay(){
         showDialog(0);
@@ -79,15 +101,17 @@ public class Resume extends Activity {
 
     public void sendResume(View view){
         Intent sendResume = new Intent(this, Reply.class);
-        sendResume.putExtra(FIO, ((EditText)findViewById(R.id.full_name)).getText().toString());
-        sendResume.putExtra(BIRTHDAY, ((EditText)findViewById(R.id.birthday)).getText().toString());
-        sendResume.putExtra(SEX, ((Spinner)findViewById(R.id.sex_spinner)).getSelectedItem().toString());
-        sendResume.putExtra(POSITION, ((EditText)findViewById(R.id.position)).getText().toString());
-        String salary = ((EditText)findViewById(R.id.salary)).getText().toString();
+        View viewFragment1 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment1).getView();
+        View viewFragment2 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment2).getView();
+        sendResume.putExtra(FIO, ((EditText)viewFragment1.findViewById(R.id.full_name)).getText().toString());
+        sendResume.putExtra(BIRTHDAY, ((EditText)viewFragment1.findViewById(R.id.birthday)).getText().toString());
+        sendResume.putExtra(SEX, ((Spinner)viewFragment1.findViewById(R.id.sex_spinner)).getSelectedItem().toString());
+        sendResume.putExtra(POSITION, ((EditText)viewFragment1.findViewById(R.id.position)).getText().toString());
+        String salary = ((EditText)viewFragment2.findViewById(R.id.salary)).getText().toString();
         if(!salary.trim().isEmpty())
-            sendResume.putExtra(SALARY, new StringBuilder().append(salary).append(getString(R.string.space)).append(((Spinner)findViewById(R.id.currency_spinner)).getSelectedItem().toString()).toString() );
-        sendResume.putExtra(PHONE, ((EditText)findViewById(R.id.phone)).getText().toString());
-        sendResume.putExtra(EMAIL, ((EditText)findViewById(R.id.email)).getText().toString());
+            sendResume.putExtra(SALARY, new StringBuilder().append(salary).append(getString(R.string.space)).append(((Spinner)viewFragment2.findViewById(R.id.currency_spinner)).getSelectedItem().toString()).toString() );
+        sendResume.putExtra(PHONE, ((EditText)viewFragment2.findViewById(R.id.phone)).getText().toString());
+        sendResume.putExtra(EMAIL, ((EditText)viewFragment2.findViewById(R.id.email)).getText().toString());
         startActivityForResult(sendResume, REQUEST_CODE);
     }
 
@@ -95,15 +119,20 @@ public class Resume extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == REQUEST_CODE){
             if(resultCode == RESULT_OK){
-                String reply = data.getData().toString();
-                if(!reply.trim().isEmpty()){
-                    ((TextView)findViewById(R.id.reply_label)).setHint(R.string.employer_response);
-                    ((TextView)findViewById(R.id.reply)).setText(reply);
-                }else{
-                    ((TextView)findViewById(R.id.reply_label)).setHint(R.string.empty);
-                    ((TextView)findViewById(R.id.reply)).setText(R.string.empty);
-                }
+                reply = data.getData().toString();;
+                activateReplyForm();
             }
+        }
+    }
+
+    private void activateReplyForm() {
+        View viewFragment3 = getSupportFragmentManager().findFragmentByTag(replyFormFragment1).getView();
+        if(!reply.trim().isEmpty()){
+            ((TextView)viewFragment3.findViewById(R.id.reply_label)).setHint(R.string.employer_response);
+            ((TextView)viewFragment3.findViewById(R.id.reply)).setText(reply);
+        }else{
+            ((TextView)viewFragment3.findViewById(R.id.reply_label)).setHint(R.string.empty);
+            ((TextView)viewFragment3.findViewById(R.id.reply)).setText(R.string.empty);
         }
     }
 }
