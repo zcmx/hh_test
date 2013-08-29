@@ -8,9 +8,8 @@
     <string name="salary_hint">З/п</string>
     <string name="phone_hint">Телефон</string>
     <string name="position_hint">Должность</string>
-    <string name="send_resume">Отправить резюме</string>
+    <string name="send">Отправить</string>
     <string name="Ok">Ок</string>
-    <string name="answer">Отправить</string>
     <string name="answer_label">Ответ на резюме</string>
     <string name="unknown">Не указано</string>
     <string name="sex_label">Пол</string>

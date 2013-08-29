@@ -4,32 +4,34 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/size_label_hint"
             android:layout_marginTop="@dimen/element_margin"
-            android:id="@+id/reply_label"/>
-
-    <TextView
-            android:id="@+id/reply"
-            android:scrollbars="vertical"
-            android:focusableInTouchMode="true"
-            android:fadingEdge="vertical"
-            android:layout_below="@id/reply_label"
+            android:hint="@string/answer_label"
+            android:id="@+id/label_to_reply_form"
+            />
+    <EditText
+            android:layout_below="@id/label_to_reply_form"
             android:layout_alignParentLeft="true"
-            android:layout_toLeftOf="@+id/send_resume"
-            android:textStyle="italic"
+            android:layout_toLeftOf="@+id/send_answer"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="5"
+            android:scrollbars="vertical"
+            android:maxLines="10"
+            android:id="@+id/editReply"/>
+
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/send"
-            android:id="@id/send_resume"
+            android:id="@id/send_answer"
+            android:layout_below="@id/label_to_reply_form"
+            android:layout_alignParentRight="true"
+            android:onClick="reply"
             style="?android:buttonStyleSmall"
-            android:onClick="sendResume"
-            android:layout_below="@id/reply_label"
-            android:layout_alignParentRight="true"/>
+            android:layout_gravity="center"/>
 </RelativeLayout>
