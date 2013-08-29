@@ -119,7 +119,7 @@ public class Resume extends FragmentActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == REQUEST_CODE){
             if(resultCode == RESULT_OK){
-                reply = data.getData().toString();;
+                reply = data.getData().toString();
                 activateReplyForm();
             }
         }
