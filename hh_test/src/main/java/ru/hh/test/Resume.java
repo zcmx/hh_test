@@ -4,7 +4,9 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -15,6 +17,7 @@ import android.widget.*;
 public class Resume extends FragmentActivity {
     private AlertDialog.Builder alertDialog;
     private DatePicker datePicker;
+    private TextView textView;
     public final static String FIO = "ru.hh.test.getFIO";
     public final static String BIRTHDAY = "ru.hh.test.getBirthday";
     public final static String SEX = "ru.hh.test.getSex";
@@ -26,14 +29,25 @@ public class Resume extends FragmentActivity {
     private String emptyResumeFragment1;
     private String emptyResumeFragment2;
     private String replyFormFragment1;
-    private static String reply = "";
+    private String reply = "";
+
+    static{
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        int currentapiVersion = android.os.Build.VERSION.SDK_INT;
+        if (currentapiVersion >= Build.VERSION_CODES.HONEYCOMB_MR1){
+            setTheme(R.style.AppThemeHolo);
+        } else{
+            setTheme(R.style.AppBaseTheme);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resume);
         this.alertDialog = new AlertDialog.Builder(this);
         this.datePicker = new DatePicker(this);
+        this.textView = new TextView(this);
         emptyResumeFragment1 = getString(R.string.fragment_empty_resume_1);
         emptyResumeFragment2 = getString(R.string.fragment_empty_resume_2);
         replyFormFragment1 = getString(R.string.fragment_empty_resume_3);
@@ -95,6 +109,25 @@ public class Resume extends FragmentActivity {
                     }
                 });
                 return this.alertDialog.create();
+            case 1:
+//                this.textView.setTextColor(Color.WHITE);
+//                this.textView.setMaxLines(10);
+//                this.textView.setVerticalFadingEdgeEnabled(true);
+//                this.textView.setMovementMethod(new ScrollingMovementMethod());
+//                this.textView.setFocusableInTouchMode(true);
+//                this.textView.setFocusable(true);
+//                this.textView.setPadding(8, 0, 0 ,0);
+//                this.textView.clearComposingText();
+//                this.textView.setText(reply);
+                this.alertDialog.setTitle(R.string.employer_response).
+                        setMessage(reply)
+                        .setPositiveButton(R.string.Ok, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                activateReplyForm();
+                            }
+                        });
+                return this.alertDialog.create();
         }
         return null;
     }
@@ -120,7 +153,10 @@ public class Resume extends FragmentActivity {
         if(requestCode == REQUEST_CODE){
             if(resultCode == RESULT_OK){
                 reply = data.getData().toString();
-                activateReplyForm();
+//                showDialog(1);
+                DialogFragment dialogFragment = new ReplyEmployerDialog();
+//                dialogFragment.setMess(reply);
+                dialogFragment.show(getSupportFragmentManager(), "ololo");
             }
         }
     }

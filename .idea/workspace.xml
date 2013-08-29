@@ -6,7 +6,7 @@
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
         <option name="localeLanguage" value="ru" />
-        <option name="targetHashString" value="android-10" />
+        <option name="targetHashString" value="android-17" />
         <option name="theme" value="AppBaseTheme" />
       </profile>
     </option>
@@ -50,32 +50,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3295d4e0-dcf6-4525-bbff-d2f117c32644" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyEmployerDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/BuildConfig.java" afterPath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/Manifest.java" afterPath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/R.java" afterPath="$PROJECT_DIR$/hh_test/gen/ru/hh/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java" afterPath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java" afterPath="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_testProject.iml" afterPath="$PROJECT_DIR$/hh_testProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hh_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377749510773" ignored="false" />
-    <file path="/fragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377231711929" ignored="false" />
-    <file path="/resume.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377747343770" ignored="false" />
+    <file path="/Dummy.txt" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377773191092" ignored="false" />
+    <file path="/fragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377775344770" ignored="false" />
+    <file path="/resume.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377782934378" ignored="false" />
     <file path="/reply.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377692387000" ignored="false" />
     <file path="/ResumeFinalFragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680589599" ignored="false" />
     <file path="/ResumeFinalFragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377628978486" ignored="false" />
     <file path="/Reply.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377689858271" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694272188" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377782751234" ignored="false" />
     <file path="/resume_final_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680178369" ignored="false" />
     <file path="/ResumeBlankFragment2.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377680686054" ignored="false" />
     <file path="/strings.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377744964880" ignored="false" />
     <file path="/ReplyToResumeFragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377688852371" ignored="false" />
     <file path="/reply_form_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377747717737" ignored="false" />
-    <file path="/styles.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694325049" ignored="false" />
+    <file path="/styles.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377777983551" ignored="false" />
     <file path="/resume_empty_fragment1.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377748025578" ignored="false" />
     <file path="/resume_empty_fragment2.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377694869489" ignored="false" />
     <file path="/send_form_fragment.xml" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377695090946" ignored="false" />
     <file path="/ResumeEmptyFragment1.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377744282986" ignored="false" />
     <file path="/ResumeEmptyFragment2.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377744358048" ignored="false" />
     <file path="/ReplyFormFragment1.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377744451273" ignored="false" />
-    <file path="/Resume.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377749032511" ignored="false" />
+    <file path="/Resume.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377787511012" ignored="false" />
     <file path="/SendFormFragment.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377746644217" ignored="false" />
+    <file path="/MyApplication.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377782190056" ignored="false" />
+    <file path="/ReplyEmployerDialog.java" changelist="3295d4e0-dcf6-4525-bbff-d2f117c32644" time="1377787354253" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,49 +149,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resume.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="156" selection-end="393" vertical-scroll-proportion="-2.04">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume_empty_fragment1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="-2.72">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Resume.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="50" selection-start="6655" selection-end="6655" vertical-scroll-proportion="0.8804598">
+            <state line="156" column="28" selection-start="8169" selection-end="8169" vertical-scroll-proportion="0.28671327">
               <folding>
-                <element signature="e#4465#4920#0" expanded="true" />
-                <element signature="e#4901#4902#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3436#3615#0" expanded="true" />
+                <element signature="e#3604#3605#0" expanded="true" />
+                <element signature="e#3687#3837#0" expanded="true" />
+                <element signature="e#3826#3827#0" expanded="true" />
+                <element signature="e#4873#5328#0" expanded="true" />
+                <element signature="e#5309#5310#0" expanded="true" />
+                <element signature="e#6101#6372#0" expanded="true" />
+                <element signature="e#6345#6346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume_empty_fragment2.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="ReplyEmployerDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyEmployerDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="16" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-14.36">
+            <state line="14" column="37" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,30 +191,25 @@
       <file leaf-file-name="Reply.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
+            <state line="13" column="55" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendFormFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/SendFormFragment.java">
+      <file leaf-file-name="Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20130522/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/app/Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="59" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="3302" column="63" selection-start="140029" selection-end="140029" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reply_form_fragment.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="530" selection-end="530" vertical-scroll-proportion="-1.44">
+            <state line="12" column="10" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -222,7 +221,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-16.4">
+            <state line="27" column="30" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-12.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reply_form_fragment.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="49" selection-start="1244" selection-end="1244" vertical-scroll-proportion="-15.6">
               <folding />
             </state>
           </provider>
@@ -234,19 +245,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="69" selection-start="474" selection-end="474" vertical-scroll-proportion="1.28">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reply.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="35" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-8.24">
+            <state line="35" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-18.84">
               <folding />
             </state>
           </provider>
@@ -313,21 +312,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment2.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeEmptyFragment1.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeEmptyFragment2.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyFormFragment1.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/SendFormFragment.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume.xml" />
-        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/reply_form_fragment.xml" />
         <option value="$PROJECT_DIR$/hh_test/src/main/res/layout/resume_empty_fragment1.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/MyApplication.java" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml" />
+        <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyEmployerDialog.java" />
         <option value="$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java" />
       </list>
     </option>
@@ -337,6 +336,28 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintUselessParent</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -367,7 +388,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,20 +402,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hh_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="hh_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,7 +412,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
+              <option name="myItemId" value="hh_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hh_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hh_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hh_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -428,7 +448,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
+              <option name="myItemId" value="hh_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -454,7 +474,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
+              <option name="myItemId" value="hh_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -484,7 +504,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
+              <option name="myItemId" value="hh_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -514,7 +534,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
+              <option name="myItemId" value="hh_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -540,19 +560,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="ExportedApkPath" value="C:\Users\mikhail.olshevskiy\Desktop\hh_test-master\hh_test\hh_test.apk" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="ExportedModule" value="hh_test" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="218" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Android/android-studio/sdk/extras/android/support/v4/android-support-v4.jar!/" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="218" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0" />
@@ -604,6 +625,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -630,19 +664,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -702,8 +723,8 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="hh_test" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -768,38 +789,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3239061" sideWeight="0.5863586" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6347635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.51654214" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2739274" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41364136" sideWeight="0.53308433" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22465315" sideWeight="0.5863586" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41364136" sideWeight="0.4669157" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67216724" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="866" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.159375" sideWeight="0.2869379" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22465315" sideWeight="0.67216724" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41364136" sideWeight="0.47438633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3239061" sideWeight="0.67216724" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6347635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278328" sideWeight="0.48345783" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278328" sideWeight="0.51654214" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="866" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67216724" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.159375" sideWeight="0.2869379" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67216724" order="7" side_tool="false" content_ui="tabs" />
@@ -877,77 +898,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="81" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values-ru/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeEmptyFragment1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="83" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ResumeEmptyFragment2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="83" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyFormFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="41" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-16.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/reply.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="35" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-8.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
+        <state line="32" column="35" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -955,9 +911,7 @@
     <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/SendFormFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="59" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -966,17 +920,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="156" selection-end="393" vertical-scroll-proportion="-2.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="69" selection-start="474" selection-end="474" vertical-scroll-proportion="1.28">
+        <state line="3" column="0" selection-start="156" selection-end="393" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -986,7 +930,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-14.36">
+        <state line="41" column="16" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -996,7 +940,55 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="-2.72">
+        <state line="19" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="-12.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="58" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20130522/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3302" column="63" selection-start="140029" selection-end="140029" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Reply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="55" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout-land/resume.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-18.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/layout/send_form_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-12.2">
           <folding />
         </state>
       </provider>
@@ -1006,17 +998,47 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="530" selection-end="530" vertical-scroll-proportion="-1.44">
+        <state line="30" column="49" selection-start="1244" selection-end="1244" vertical-scroll-proportion="-15.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/ReplyEmployerDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20130522/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/support/v4/app/DialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hh_test/src/main/java/ru/hh/test/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="50" selection-start="6655" selection-end="6655" vertical-scroll-proportion="0.8804598">
+        <state line="156" column="28" selection-start="8169" selection-end="8169" vertical-scroll-proportion="0.28671327">
           <folding>
-            <element signature="e#4465#4920#0" expanded="true" />
-            <element signature="e#4901#4902#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3436#3615#0" expanded="true" />
+            <element signature="e#3604#3605#0" expanded="true" />
+            <element signature="e#3687#3837#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+            <element signature="e#4873#5328#0" expanded="true" />
+            <element signature="e#5309#5310#0" expanded="true" />
+            <element signature="e#6101#6372#0" expanded="true" />
+            <element signature="e#6345#6346#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1064,7 +1086,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 2.3.3 Platform</last-edited>
+          <last-edited>2.3.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

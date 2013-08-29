@@ -2,6 +2,7 @@ package ru.hh.test;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
@@ -16,6 +17,12 @@ public class Reply extends FragmentActivity {
     private String fragmentResume2;
     private String fragmentResume3;
     public void onCreate(Bundle savedInstanceState) {
+        int currentapiVersion = android.os.Build.VERSION.SDK_INT;
+        if (currentapiVersion >= Build.VERSION_CODES.HONEYCOMB_MR1){
+            setTheme(R.style.AppThemeHolo);
+        } else{
+            setTheme(R.style.AppBaseTheme);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reply);
         fragmentResume1 = getString(R.string.fragment_resume_1);
