@@ -17,7 +17,7 @@
     <string name="employer_response">Ответ работодателя</string>
     <string name="empty"></string>
     <string name="dot">.</string>
-    <string name="space"> </string>
+    <string name="space"></string>
     <string name="phone_buttons">0123456789+</string>
 
     <string-array name="sex">

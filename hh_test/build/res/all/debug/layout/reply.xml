@@ -18,11 +18,11 @@
             android:id="@+id/fullName_result"
             android:textSize="@dimen/header"
             android:layout_gravity="center"/>
-    
+
     <LinearLayout
-        android:orientation="horizontal" 
-        android:layout_height="wrap_content" 
-        android:layout_width="fill_parent">
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
 
         <TextView
                 android:layout_width="0dp"

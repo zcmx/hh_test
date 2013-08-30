@@ -12,26 +12,28 @@
               android:layout_height="match_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:baselineAligned="false">
-           <FrameLayout
-               android:id="@+id/empty_resume_fragment1"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_weight="1"/>
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:baselineAligned="false">
+
+        <FrameLayout
+                android:id="@+id/empty_resume_fragment1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        <FrameLayout
+                android:id="@id/empty_resume_fragment2"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
 
     <FrameLayout
-        android:id="@id/empty_resume_fragment2"
-        android:layout_width="wrap_content"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        />
-    </LinearLayout>
-    <FrameLayout
-        android:id="@+id/reply_form_fragment"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        />
+            android:id="@+id/reply_form_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
 </LinearLayout>

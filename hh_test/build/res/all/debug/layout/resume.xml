@@ -1,23 +1,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:focusable="true"
-    android:focusableInTouchMode="true"
-    android:orientation="vertical">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
 
     <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/fio_hint"
-        android:id="@+id/full_name"
-        android:inputType="textCapWords"/>
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fio_hint"
+            android:id="@+id/full_name"
+            android:inputType="textCapWords"/>
 
 
-        <EditText
+    <EditText
             android:layout_width="0dp"
             android:layout_below="@id/full_name"
             android:layout_height="wrap_content"
@@ -25,21 +25,21 @@
             android:layout_alignParentLeft="true"
             android:hint="@string/birthday_hint" android:editable="false"
             android:id="@+id/birthday"/>
-        <Spinner
-                android:layout_width="120dp"
-                android:layout_below="@id/full_name"
-                android:layout_alignParentRight="true"
-                android:layout_height="wrap_content"
-                android:id="@id/sex_spinner"/>
+    <Spinner
+            android:layout_width="120dp"
+            android:layout_below="@id/full_name"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:id="@id/sex_spinner"/>
 
 
     <EditText android:editable="false"
-            android:layout_width="fill_parent"
-            android:layout_below="@id/birthday"
-            android:layout_height="wrap_content"
-            android:inputType="textCapSentences"
-            android:hint="@string/position_hint"
-            android:id="@+id/position"/>
+              android:layout_width="fill_parent"
+              android:layout_below="@id/birthday"
+              android:layout_height="wrap_content"
+              android:inputType="textCapSentences"
+              android:hint="@string/position_hint"
+              android:id="@+id/position"/>
 
     <EditText
             android:layout_width="0dp"
@@ -51,12 +51,12 @@
             android:hint="@string/salary_hint"
             android:ems="10"
             android:id="@+id/salary"/>
-        <Spinner
-                android:layout_below="@id/position"
-                android:layout_alignParentRight="true"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:id="@id/currency_spinner"/>
+    <Spinner
+            android:layout_below="@id/position"
+            android:layout_alignParentRight="true"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@id/currency_spinner"/>
 
     <EditText
             android:layout_width="fill_parent"
@@ -93,7 +93,7 @@
             android:layout_marginTop="@dimen/element_margin"
             android:id="@+id/reply_label"/>
 
-        <TextView
+    <TextView
             android:id="@+id/reply"
             android:scrollbars="vertical"
             android:fadingEdge="vertical"
@@ -103,4 +103,4 @@
             android:layout_height="wrap_content"/>
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/layout/resume.xml -->
+        <!-- From: file:/C:/Users/mikhail.olshevskiy/Desktop/hh_test-master/hh_test/src/main/res/layout/resume.xml -->

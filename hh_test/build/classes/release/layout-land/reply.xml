@@ -26,12 +26,14 @@
             android:layout_toLeftOf="@+id/resume_part_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
     <FrameLayout
             android:id="@id/resume_part_2"
             android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_below="@id/fullName_result"/>
+
     <FrameLayout
             android:id="@+id/resume_reply"
             android:layout_width="fill_parent"
@@ -40,16 +42,16 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/resume_part_1"/>
     <!--<Button-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="@string/answer"-->
-            <!--android:id="@id/send_answer"-->
-            <!---->
-            <!--android:layout_below="@id/resume_part_2"-->
-            <!--android:layout_alignParentRight="true"-->
-            <!--android:onClick="reply"-->
-            <!--style="?android:buttonStyleSmall"-->
-            <!--android:layout_gravity="center"/>-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/answer"-->
+    <!--android:id="@id/send_answer"-->
+    <!---->
+    <!--android:layout_below="@id/resume_part_2"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:onClick="reply"-->
+    <!--style="?android:buttonStyleSmall"-->
+    <!--android:layout_gravity="center"/>-->
 
 
 </RelativeLayout>

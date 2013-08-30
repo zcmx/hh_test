@@ -1,7 +1,9 @@
 package ru.hh.test;
 
+
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.Service;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
@@ -10,14 +12,14 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.text.method.ScrollingMovementMethod;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.*;
 
 public class Resume extends FragmentActivity {
-    private AlertDialog.Builder alertDialog;
     private DatePicker datePicker;
-    private TextView textView;
+    private AlertDialog.Builder alertDialog;
     public final static String FIO = "ru.hh.test.getFIO";
     public final static String BIRTHDAY = "ru.hh.test.getBirthday";
     public final static String SEX = "ru.hh.test.getSex";
@@ -28,38 +30,31 @@ public class Resume extends FragmentActivity {
     static final int REQUEST_CODE = 0;
     private String emptyResumeFragment1;
     private String emptyResumeFragment2;
-    private String replyFormFragment1;
     private String reply = "";
 
-    static{
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         int currentapiVersion = android.os.Build.VERSION.SDK_INT;
-        if (currentapiVersion >= Build.VERSION_CODES.HONEYCOMB_MR1){
+        if (currentapiVersion >= Build.VERSION_CODES.HONEYCOMB_MR1) {
             setTheme(R.style.AppThemeHolo);
-        } else{
+        } else {
             setTheme(R.style.AppBaseTheme);
         }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resume);
-        this.alertDialog = new AlertDialog.Builder(this);
         this.datePicker = new DatePicker(this);
-        this.textView = new TextView(this);
+        this.alertDialog = new AlertDialog.Builder(this);
         emptyResumeFragment1 = getString(R.string.fragment_empty_resume_1);
         emptyResumeFragment2 = getString(R.string.fragment_empty_resume_2);
-        replyFormFragment1 = getString(R.string.fragment_empty_resume_3);
-        if(savedInstanceState == null){
+        String replyFormFragment1 = getString(R.string.fragment_empty_resume_3);
+        if (savedInstanceState == null) {
+            FragmentManager manager = getSupportFragmentManager();
             ResumeEmptyFragment1 resumeEmptyFragment1 = new ResumeEmptyFragment1();
             ResumeEmptyFragment2 resumeEmptyFragment2 = new ResumeEmptyFragment2();
-            ReplyFormFragment replyFormFragment = new ReplyFormFragment();
-            FragmentManager manager = getSupportFragmentManager();
             FragmentTransaction transaction = manager.beginTransaction();
-            transaction.add(R.id.empty_resume_fragment1, resumeEmptyFragment1,emptyResumeFragment1);
-            transaction.add(R.id.empty_resume_fragment2, resumeEmptyFragment2,emptyResumeFragment2);
-            transaction.add(R.id.reply_form_fragment, replyFormFragment,replyFormFragment1);
+            transaction.add(R.id.empty_resume_fragment1, resumeEmptyFragment1, emptyResumeFragment1);
+            transaction.add(R.id.empty_resume_fragment2, resumeEmptyFragment2, emptyResumeFragment2);
             transaction.commit();
         }
     }
@@ -69,38 +64,43 @@ public class Resume extends FragmentActivity {
         super.onStart();
         View viewFragment1 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment1).getView();
         View viewFragment2 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment2).getView();
-        View viewFragment3 = getSupportFragmentManager().findFragmentByTag(replyFormFragment1).getView();
-        ((TextView) viewFragment3.findViewById(R.id.reply)).setMovementMethod(new ScrollingMovementMethod());
-        viewFragment1.findViewById(R.id.birthday).setOnFocusChangeListener(new View.OnFocusChangeListener() {
+
+        ((EditText) viewFragment2.findViewById(R.id.email)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
-            public void onFocusChange(View view, boolean b) {
-                if(b) setBirthDay();
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                sendResume(null);
+                return true;
             }
         });
-        viewFragment1.findViewById(R.id.birthday).setOnClickListener(new View.OnClickListener() {
+        ((EditText)viewFragment1.findViewById(R.id.birthday)).setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if (b) setBirthDay();
+            }
+        });
+        ((EditText)viewFragment1.findViewById(R.id.birthday)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setBirthDay();
             }
         });
-        Spinner sex = (Spinner)viewFragment1.findViewById(R.id.sex_spinner);
+        Spinner sex = (Spinner) viewFragment1.findViewById(R.id.sex_spinner);
         ArrayAdapter<CharSequence> sexAdapter = ArrayAdapter.createFromResource(this, R.array.sex, android.R.layout.simple_spinner_item);
         sexAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sex.setAdapter(sexAdapter);
-        Spinner currency = (Spinner)viewFragment2.findViewById(R.id.currency_spinner);
+        Spinner currency = (Spinner) viewFragment2.findViewById(R.id.currency_spinner);
         ArrayAdapter<CharSequence> currencyAdapter = ArrayAdapter.createFromResource(this, R.array.currency, android.R.layout.simple_spinner_item);
         currencyAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         currency.setAdapter(currencyAdapter);
-        activateReplyForm();
     }
 
-    public void setBirthDay(){
+    public void setBirthDay() {
         showDialog(0);
     }
 
     @Override
     protected Dialog onCreateDialog(int id) {
-        switch(id){
+        switch (id) {
             case 0:
                 this.alertDialog.setTitle(R.string.birthday_hint).setView(datePicker).setPositiveButton(R.string.Ok, new DialogInterface.OnClickListener() {
                     @Override
@@ -109,66 +109,42 @@ public class Resume extends FragmentActivity {
                     }
                 });
                 return this.alertDialog.create();
-            case 1:
-//                this.textView.setTextColor(Color.WHITE);
-//                this.textView.setMaxLines(10);
-//                this.textView.setVerticalFadingEdgeEnabled(true);
-//                this.textView.setMovementMethod(new ScrollingMovementMethod());
-//                this.textView.setFocusableInTouchMode(true);
-//                this.textView.setFocusable(true);
-//                this.textView.setPadding(8, 0, 0 ,0);
-//                this.textView.clearComposingText();
-//                this.textView.setText(reply);
-                this.alertDialog.setTitle(R.string.employer_response).
-                        setMessage(reply)
-                        .setPositiveButton(R.string.Ok, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                activateReplyForm();
-                            }
-                        });
-                return this.alertDialog.create();
+
         }
         return null;
     }
 
-    public void sendResume(View view){
+    public void sendResume(View view) {
         Intent sendResume = new Intent(this, Reply.class);
         View viewFragment1 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment1).getView();
         View viewFragment2 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment2).getView();
-        sendResume.putExtra(FIO, ((EditText)viewFragment1.findViewById(R.id.full_name)).getText().toString());
+        sendResume.putExtra(FIO, ((EditText) viewFragment1.findViewById(R.id.full_name)).getText().toString());
         sendResume.putExtra(BIRTHDAY, ((EditText)viewFragment1.findViewById(R.id.birthday)).getText().toString());
-        sendResume.putExtra(SEX, ((Spinner)viewFragment1.findViewById(R.id.sex_spinner)).getSelectedItem().toString());
-        sendResume.putExtra(POSITION, ((EditText)viewFragment1.findViewById(R.id.position)).getText().toString());
-        String salary = ((EditText)viewFragment2.findViewById(R.id.salary)).getText().toString();
-        if(!salary.trim().isEmpty())
-            sendResume.putExtra(SALARY, new StringBuilder().append(salary).append(getString(R.string.space)).append(((Spinner)viewFragment2.findViewById(R.id.currency_spinner)).getSelectedItem().toString()).toString() );
-        sendResume.putExtra(PHONE, ((EditText)viewFragment2.findViewById(R.id.phone)).getText().toString());
-        sendResume.putExtra(EMAIL, ((EditText)viewFragment2.findViewById(R.id.email)).getText().toString());
+        sendResume.putExtra(SEX, ((Spinner) viewFragment1.findViewById(R.id.sex_spinner)).getSelectedItem().toString());
+        sendResume.putExtra(POSITION, ((EditText) viewFragment1.findViewById(R.id.position)).getText().toString());
+        String salary = ((EditText) viewFragment2.findViewById(R.id.salary)).getText().toString();
+        if (!salary.trim().isEmpty())
+            sendResume.putExtra(SALARY, new StringBuilder().append(salary).append(getString(R.string.space)).append(((Spinner) viewFragment2.findViewById(R.id.currency_spinner)).getSelectedItem().toString()).toString());
+        sendResume.putExtra(PHONE, ((EditText) viewFragment2.findViewById(R.id.phone)).getText().toString());
+        sendResume.putExtra(EMAIL, ((EditText) viewFragment2.findViewById(R.id.email)).getText().toString());
         startActivityForResult(sendResume, REQUEST_CODE);
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(requestCode == REQUEST_CODE){
-            if(resultCode == RESULT_OK){
-                reply = data.getData().toString();
-//                showDialog(1);
-                DialogFragment dialogFragment = new ReplyEmployerDialog();
-//                dialogFragment.setMess(reply);
-                dialogFragment.show(getSupportFragmentManager(), "ololo");
-            }
+    protected void onResume() {
+        super.onResume();
+        if(!reply.trim().isEmpty()) {
+            DialogFragment dialogFragment = new ReplyEmployerDialog(reply);
+            dialogFragment.show(getSupportFragmentManager(), null);
         }
     }
 
-    private void activateReplyForm() {
-        View viewFragment3 = getSupportFragmentManager().findFragmentByTag(replyFormFragment1).getView();
-        if(!reply.trim().isEmpty()){
-            ((TextView)viewFragment3.findViewById(R.id.reply_label)).setHint(R.string.employer_response);
-            ((TextView)viewFragment3.findViewById(R.id.reply)).setText(reply);
-        }else{
-            ((TextView)viewFragment3.findViewById(R.id.reply_label)).setHint(R.string.empty);
-            ((TextView)viewFragment3.findViewById(R.id.reply)).setText(R.string.empty);
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == RESULT_OK) {
+                reply = data.getData().toString();
+            }
         }
     }
 }
