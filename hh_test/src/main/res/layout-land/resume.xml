@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:focusable="true"
               android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -31,9 +31,13 @@
                 />
     </LinearLayout>
 
-    <FrameLayout
-            android:id="@+id/reply_form_fragment"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            />
-</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:id="@+id/send_resume"
+        style="?android:buttonStyleSmall"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendResume"/>
+</RelativeLayout>

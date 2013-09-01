@@ -1,15 +1,15 @@
 package ru.hh.test;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 
@@ -19,12 +19,6 @@ public class Reply extends FragmentActivity {
     private String fragmentResume3;
 
     public void onCreate(Bundle savedInstanceState) {
-        int currentapiVersion = android.os.Build.VERSION.SDK_INT;
-        if (currentapiVersion >= Build.VERSION_CODES.HONEYCOMB_MR1) {
-            setTheme(R.style.AppThemeHolo);
-        } else {
-            setTheme(R.style.AppBaseTheme);
-        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reply);
         fragmentResume1 = getString(R.string.fragment_resume_1);
@@ -48,13 +42,6 @@ public class Reply extends FragmentActivity {
         super.onStart();
         View fragmentResumeView1 = getSupportFragmentManager().findFragmentByTag(fragmentResume1).getView();
         View fragmentResumeView2 = getSupportFragmentManager().findFragmentByTag(fragmentResume2).getView();
-        View fragmentSendView = getSupportFragmentManager().findFragmentByTag(fragmentResume3).getView();
-        ((EditText)fragmentSendView.findViewById(R.id.editReply)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((ScrollView)findViewById(R.id.scroll_send_form)).scrollBy(0,10);
-            }
-        });
         Intent intent = getIntent();
         ((TextView) findViewById(R.id.fullName_result)).setText(intent.getStringExtra(Resume.FIO));
         ((TextView) fragmentResumeView1.findViewById(R.id.birthday_result)).setText(intent.getStringExtra(Resume.BIRTHDAY));
@@ -67,6 +54,8 @@ public class Reply extends FragmentActivity {
 
     public void reply(View view) {
         View view1 = getSupportFragmentManager().findFragmentByTag(fragmentResume3).getView();
+        InputMethodManager inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputManager.hideSoftInputFromWindow(((EditText) view1.findViewById(R.id.editReply)).getWindowToken(),0);
         String reply = ((EditText) view1.findViewById(R.id.editReply)).getText().toString();
         Intent intent = new Intent();
         intent.setData(Uri.parse(reply));

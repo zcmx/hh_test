@@ -30,7 +30,6 @@
             android:digits="@string/phone_buttons"
             android:layout_below="@id/salary"
             android:hint="@string/phone_hint"
-            android:imeOptions="actionNext"
             android:ems="10"
             android:id="@+id/phone"/>
 
@@ -40,8 +39,6 @@
             android:hint="@string/email_hint"
             android:id="@+id/email"
             android:layout_below="@id/phone"
-            android:imeOptions="actionSend"
-            android:imeActionLabel="@string/send"
             android:inputType="textEmailAddress"/>
 
 </RelativeLayout>

@@ -4,6 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="element_margin">8dp</dimen>
     <dimen name="size_label_hint">12sp</dimen>
-    <dimen name="header">24sp</dimen>
+    <dimen name="header">20sp</dimen>
     <dimen name="margin_scroll_view_empty_resume">48dp</dimen>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ru.hh.test.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -15,14 +15,14 @@
             android:scrollbars="vertical"
             android:focusableInTouchMode="true"
             android:focusable="true"
-            android:layout_marginBottom="@dimen/margin_scroll_view_empty_resume"
             android:id="@+id/scroll_send_form"
+            android:layout_marginBottom="@dimen/margin_scroll_view_empty_resume"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
     <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
             <TextView
@@ -50,7 +50,7 @@
                     android:layout_below="@id/resume_part_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content" />
-        </RelativeLayout>
+    </RelativeLayout>
     </ScrollView>
     <Button
             android:layout_width="wrap_content"
@@ -62,4 +62,4 @@
             android:onClick="reply"
             style="?android:buttonStyleSmall"/>
 
-</RelativeLayout>
+</ru.hh.test.MyRelativeLayout>

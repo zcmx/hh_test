@@ -3,19 +3,18 @@ package ru.hh.test;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.Service;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.*;
+import android.widget.ArrayAdapter;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.Spinner;
 
 public class Resume extends FragmentActivity {
     private DatePicker datePicker;
@@ -35,12 +34,6 @@ public class Resume extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        int currentapiVersion = android.os.Build.VERSION.SDK_INT;
-        if (currentapiVersion >= Build.VERSION_CODES.HONEYCOMB_MR1) {
-            setTheme(R.style.AppThemeHolo);
-        } else {
-            setTheme(R.style.AppBaseTheme);
-        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resume);
         this.datePicker = new DatePicker(this);
@@ -65,13 +58,6 @@ public class Resume extends FragmentActivity {
         View viewFragment1 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment1).getView();
         View viewFragment2 = getSupportFragmentManager().findFragmentByTag(emptyResumeFragment2).getView();
 
-        ((EditText) viewFragment2.findViewById(R.id.email)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                sendResume(null);
-                return true;
-            }
-        });
         ((EditText)viewFragment1.findViewById(R.id.birthday)).setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean b) {

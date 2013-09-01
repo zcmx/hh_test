@@ -21,8 +21,6 @@
             android:inputType="textCapSentences|textMultiLine"
             android:minLines="5"
             android:scrollbars="vertical"
-            android:imeOptions="actionSend"
-            android:imeActionLabel="@string/send"
             android:maxLines="10"
             android:id="@+id/editReply"/>
 
